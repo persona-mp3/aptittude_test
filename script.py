@@ -38,29 +38,21 @@ def first_factorial(params: int) -> int:
     return total_factorial
     
 
+            
 
-<<<<<<< HEAD
 
 test_factorial = first_factorial(4)
 # print(test_factorial)
 
 
-
-
-
-
-
 # function return value should be of type of string
-=======
-# function value should be of type of string
->>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
 def time_conversion(params: int) -> str:
     """
     Question 2: 
     Have the function take the number parameter being passed and return the number of hours and minutes 
     the parameter converts to (ie. if num = 63 then the output should be 1:3). 
     Separate the number of hours and minutes with a colon.
-    For the test cases, the numbers used will be 74 and 118
+    For the test cases, the numbers used will be 74 and 118.       
     """
     if type(params) != int:
         error_msg = f'You passed in a {type(params)}, you must pass in an integer'
@@ -111,11 +103,7 @@ print('convert 3', test_time_conversion_4)
 # function should return an interger type value
 def consonant_counter(word: str) -> int:
     """
-<<<<<<< HEAD
-    Question 3:
-=======
     Question:
->>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
     Have the function take the string parameter being passed and return the number of 
     consonants the string contains (ie. "All cows eat grass" would return 5).
     For the test cases the two strings will be ‘Today is a really hot day but will cool
@@ -290,11 +278,8 @@ print(test_hamming_dist)
 
 
 
-<<<<<<< HEAD
 # function should return a str
-=======
-# question 5
->>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
+
 def roman_numerals(params: int)-> str:
     """
     Question 5:
@@ -318,8 +303,6 @@ def roman_numerals(params: int)-> str:
 
 
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -342,7 +325,3 @@ def roman_numerals(params: int)-> str:
 
     
 
-
-
-
->>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
