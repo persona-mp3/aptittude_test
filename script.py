@@ -39,6 +39,7 @@ def first_factorial(params: int) -> int:
     
 
 
+<<<<<<< HEAD
 
 test_factorial = first_factorial(4)
 # print(test_factorial)
@@ -50,6 +51,9 @@ test_factorial = first_factorial(4)
 
 
 # function return value should be of type of string
+=======
+# function value should be of type of string
+>>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
 def time_conversion(params: int) -> str:
     """
     Question 2: 
@@ -107,7 +111,11 @@ print('convert 3', test_time_conversion_4)
 # function should return an interger type value
 def consonant_counter(word: str) -> int:
     """
+<<<<<<< HEAD
     Question 3:
+=======
+    Question:
+>>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
     Have the function take the string parameter being passed and return the number of 
     consonants the string contains (ie. "All cows eat grass" would return 5).
     For the test cases the two strings will be ‘Today is a really hot day but will cool
@@ -196,6 +204,15 @@ def hamming_dist(params: list[str]) -> int:
 
     """
     user_words: list[str] = []
+
+    """
+    Have the function take the array of strings, which will only contain two strings of equal length 
+    and return the number of characters at each position that are different between them. 
+    For example: [“house”, “hours”] then your program should return 2. 
+    The string will always be of equal length and will only contain lowercase characters from the alphabet and numbers.
+    For the test cases, the first set of numbers will be [100101001 and 110110011] and [11001101 and 10110110]
+
+    """
     
     if type(params) != list:
         case_01 = f'You entered a value of type {type(params)} instead of a list'
@@ -273,7 +290,11 @@ print(test_hamming_dist)
 
 
 
+<<<<<<< HEAD
 # function should return a str
+=======
+# question 5
+>>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
 def roman_numerals(params: int)-> str:
     """
     Question 5:
@@ -297,3 +318,31 @@ def roman_numerals(params: int)-> str:
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# test_factorial = first_factorial(0)
+# print(test_factorial)
+# print(type(test_factorial))
+
+
+
+    
+
+
+
+
+>>>>>>> b9807fdf752ca144039e9ccc4aac8f3bb6699cb5
