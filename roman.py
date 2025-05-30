@@ -10,16 +10,13 @@ test cases -> 3612 423
 # if len = 3 -> hundreds, 
 # if len = 4 -> thousands
 
-# rules
-# a letter cannot be repeated more than 3 times'
-# in a scenario after the 3rd letter, the next number should be the single unit + the next unit ie 
-# lxxx -> 80 , we want to get 90, but we know 100 is C to 90 -> XC
-
 # so we also need to the computer to read it in terms of units and tenths sequence 
 # so depending on the length of the string, we can then read it to get the roman numerals
 # so we can make a set of dictionaries for each scenario that there will be lookups for each section
 # 3233 -> 3 will be searched for in thousands dict , 2 in hundreds dict, 3 in tens and so on
 # 3000 +200 + 30 + 3
+
+# TODO: try refactoring it such that if its thousands, we slice the string from the 2nd char and give it to hundreds() and then append to final result 
 
 def calc_unit(coerced_str, units):
     unit = coerced_str[0]
@@ -143,5 +140,4 @@ def roman_numeral(num):
             return
 
 
-roman_numeral(1943)
-
+roman_numeral(1994)
